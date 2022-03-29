@@ -43,3 +43,11 @@ proxy listening on  127.0.0.1:9900
 https://gitee.com/u2go/pub/raw/main/bin/linux-64/proxy
 
 https://raw.githubusercontent.com/u2go/pub/main/bin/linux-64/proxy
+
+## QA
+
+### bin can't execute on alpine docker container
+
+```text
+apk add --no-cache libc6-compat
+```
